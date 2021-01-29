@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project Z</title>
+    <link rel="stylesheet" href="static/css/default.css" type="text/css"/>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="static/img/logo.png" alt="">
+        </div>
+        <div class="menu">
+            <label class="h-m-item">Компания</label>
+            <label class="h-m-item">Каталог</label>
+            <label class="h-m-item">Контакты</label>
+        </div>
+        <div class="icons">
+            <img src="static/img/mail-icon.png" alt="">
+            <img src="static/img/phone-icon.png" alt="">
+        </div>
+    </div>
+    <div class="post-header">
+        <div class="ph-column">
+            <h1>На Луну<br>и обратно</h1>
+            <p>Космически крутой туризм. Пакетные и индивидуальные туры по лучшим планетам галактики.</p>
+            <button class="stylized">ПОДБОР ТУРА <img src="static/img/right-arrow-dark.png" alt=""></button>
+        </div>
+        <div class="ph-column">
+            <img src="static/img/moon-rocket.png" alt="">
+        </div>
+    </div>
+    <div class="description-board">
+        <div class="card">
+            <img src="static/img/advantage-icon-1.png" alt="">
+            <p>Комфортабельные ракеты отечественного производства.</p>
+        </div>
+        <div class="card">
+            <img src="static/img/advantage-icon-2.png" alt="">
+            <p>Вкусное и полезное космическое питание на борту.</p>
+        </div>
+        <div class="card">
+            <img src="static/img/advantage-icon-3.png" alt="">
+            <p>Весь экипаж пилотов состоит из бывших космонавтов.</p>
+        </div>
+        <div class="card">
+            <img src="static/img/advantage-icon-4.png" alt="">
+            <p>Экскурсии на луноходе на Море Ясности и Океан Бурь.</p>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="row">
+            <div class="mc-column">
+                <img src="static/img/map.jpg" alt="" height="100%" style="object-fit: contain;align-self: self-start;">
+            </div>
+            <div class="mc-column">
+                <h1>Надоело летать в отпуск за границу? Как насчет того, чтобы слетать на Луну?</h1>
+                <div class="textblock">
+                    <p>Устали от пакетных туров и пляжного отдыха? Полотенца и магнитики, которые вы привозите из отпуска уже
+                        не радуют ваших близких? В следующий раз привезите им настоящий лунный камень!</p>
+                    <p>Мы предлагаем инновационную услугу на туристическом рынке — космический туризм (пока только на Луну, сейчас решаем вопросы с визовым центром Венеры).</p>
+                    <p>Берите отпуск и отправляйтесь с нами в полет, он займет всего 72 часа!</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mc-column">
+                <h1>Не забудьте взять с собой:</h1>
+                <ul>
+                    <li><span><em>Паспорт.</em> Визовый режим пока не введен, но на границе будет досмотр.</span></li>
+                    <li><span><em>Тяжелые ботинки.</em> Пригодятся вам в условиях низкой гравитации на Луне.</span></li>
+                    <li><span><em>Криптовалюта.</em> Рекомендуем заранее обменять немного Лун-коинов, чтобы купить сувениры.</span></li>
+                </ul>
+            </div>
+            <div class="mc-column">
+                <h1>Это лучше оставить дома:</h1>
+                <ul>
+                    <li><span><em>Телефон.</em> В космосе не ловит ваш любимый оператор и нет Wi-Fi.</span></li>
+                    <li><span><em>Бутерброды.</em> На борту будет питание, которое не разлетится по кабине в условиях невесомости.</span></li>
+                    <li><span><em>Плавки / Купальник</em> Море Ясности и Океан Бурь это большие кратеры. Без воды.</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" style="background-color: #F0F0F0">
+            <div class="mc-column" style="justify-content: flex-start">
+                <h1>Готовы открыть для себя что-то новое?</h1>
+                <div class="textblock">
+                    <p>Оставьте заявку, заполнив форму справа, мы рассмотрим вашу кандидатуру
+                    и свяжемся с вами в течение 24 часов.</p>
+                </div>
+            </div>
+            <div class="mc-column">
+                <form action="post">
+                    <input type="text" placeholder="ФИО">
+                    <input type="text" placeholder="Контактный телефон">
+                    <div class="double-block">
+                        <input type="text" placeholder="Рост" class="db-item">
+                        <input type="text" placeholder="Вес" class="db-item">
+                    </div>
+                    <input type="checkbox" class="custom-checkbox" id="personal-info" name="personal-info" value="yes">
+                    <label for="personal-info">Согласен(а) на обработку персональных данных</label>
+                    <button class="stylized">ОТПРАВИТЬ <img src="static/img/right-arrow-white.png" alt=""></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="time-board">
+        <div class="tb-row">
+            <h1>Расписание<br>полетов</h1>
+            <p>Для вашего удобства мы разработали график полетов с вылетами из москвы и Санкт-Петербурга. Вы также можете запросить <code>индивидуальный полет</code>.</p>
+        </div>
+        <table>
+            <tr>
+                <td>№ Рейса</td>
+                <td>Откуда - куда</td>
+                <td>Время вылета</td>
+                <td>Время прилета</td>
+            </tr>
+            <tr>
+                <td>1635</td>
+                <td>VKO - MOON</td>
+                <td>00:45</td>
+                <td>23:15</td>
+            </tr>
+            <tr>
+                <td>70200</td>
+                <td>LED - MOON</td>
+                <td>17:30</td>
+                <td>16:20</td>
+            </tr>
+
+        </table>
+    </div>
+    <div class="footer">
+        <div class="card">
+            <div class="logo">
+                <img src="static/img/logo.png" alt="">
+                <label>Space Z</label>
+            </div>
+            <p>ООО «Космос Зэ»<br>Все права защищены.</p>
+        </div>
+        <div class="card">
+            <h1>Компания</h1>
+            <ul>
+                <li>История</li>
+                <li>Миссия</li>
+                <li>Команда</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h1>Каталог</h1>
+            <ul>
+                <li>Полеты</li>
+                <li>Проживание</li>
+                <li>Экскурсии</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h1>Контакты</h1>
+            <ul>
+                <li>Отправить заявку</li>
+                <li>Схема проезда</li>
+                <li>Время работы</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
